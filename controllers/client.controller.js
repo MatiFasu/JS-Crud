@@ -1,4 +1,4 @@
-import { clientServices } from "../service/client-service.js";
+import { clientServices } from "../index.js";
 
 const crearNuevaLinea = (nombre,email,id) => {
     const linea =document.createElement("tr");
@@ -43,8 +43,6 @@ clientServices.listaClientes().then((data) => {
     table.appendChild(nuevaLinea);
     });
   }).catch((error) => alert("Ocurrio un error"));
-
-
 
 
 

@@ -1,4 +1,4 @@
-import { clientServices } from "../service/client-service.js";
+import { clientServices } from "../index.js";
 
 const formulario = document.querySelector("[data-form]");
 
@@ -44,5 +44,4 @@ formulario.addEventListener("submit", (evento) => {
         window.location.href = "/screens/edicion_concluida.html";
     });
 });
-
 

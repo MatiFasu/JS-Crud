@@ -4,7 +4,7 @@
   "description": "1836-crud_js_async project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/HarlandLohora/1836-CRUD_JS_Async/issues"
   },
-  "homepage": "https://github.com/HarlandLohora/1836-CRUD_JS_Async#readme"
+  "homepage": "https://github.com/HarlandLohora/1836-CRUD_JS_Async#readme",
+  "dependencies": {
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {}
 }
